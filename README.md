@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @cbilinski101
+- 👋 Hi, I’m Christine Bilinski
 - 👀 I’m interested in ... getting to know things
 - 🌱 I’m currently learning ... everything I can
 - 💞️ I’m looking to collaborate on ... something in the future
