@@ -1,13 +1,3 @@
-- 👋 Hi, I’m Christine Bilinski
-- 👀 I’m interested in ... getting to know things
-- 🌱 I’m currently learning ... everything I can
-- 💞️ I’m looking to collaborate on ... something in the future
-- 📫 How to reach me ... or not for now
-- 😄 Pronouns: ... she/her
-- ⚡ Fun fact: ... I am not knowledgable at all in this field, and I can only imagine what the future holds for now
-- Still learning
-- **
-<!---
-cbilinski101/cbilinski101 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Analytical and detail-oriented professional transitioning into data analytics, with over 10 years of experience in data management, reporting, and operational support. Proven ability to streamline processes, enhance organizational efficiency, and present complex data insights. Currently expanding technical expertise through the University of Toronto’s Data Analytics Bootcamp, focusing on data analysis, visualization, and statistical methods. Recognized for excellent communication, organizational skills, and a proactive approach to problem-solving.
+
+I invite you to explore some of my recent projects and analyses from the Bootcamp, showcasing my developing skills in data analytics and visualization
