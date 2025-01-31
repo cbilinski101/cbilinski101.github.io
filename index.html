@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>C. Bilinski | Data Analytics Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f8f9fa; }
-        .navbar { background-color: #007bff; }
-        .navbar-brand, .nav-link { color: white !important; }
-        .card { border-radius: 10px; }
+        body {
+            background-image: url('nb_more_faded.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
     </style>
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="#">C. Bilinski</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -25,6 +43,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -34,37 +53,89 @@
 
     <!-- Hero Section -->
     <header class="text-center py-5 bg-primary text-white">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Web Developer | Designer | Tech Enthusiast</p>
+        <h1>🚀 Welcome to My Data Analytics Portfolio</h1>
+        <p>Bridging Data & Insights | University of Toronto Data Analytics Bootcamp</p>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container py-5">
         <h2 class="text-center">About Me</h2>
-        <p class="text-center">I'm a passionate web developer skilled in HTML, CSS, JavaScript, and Bootstrap.</p>
+        <p class="text-center">
+            Throughout my journey, I’ve balanced being a mother and caregiver with a passion for analytics.
+            Now, I'm transitioning into data analytics, building on my background in data management, reporting, and operational support.
+        </p>
+        <p class="text-center">
+            I enjoy solving complex problems, making processes more efficient, and uncovering insights through data visualization.
+            Currently, I'm studying Data Analytics at the **University of Toronto** and maintaining a **99.6% average**.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-5">
+        <h2 class="text-center">📊 Skills & Learning Journey</h2>
+        
+        <h4>✅ Skills Learned So Far:</h4>
+        <ul>
+            <li>Excel, VBA Scripting</li>
+            <li>Python (Pandas, NumPy, APIs, Data Visualization)</li>
+            <li>SQL & Advanced SQL</li>
+            <li>NoSQL Databases</li>
+            <li>ETL (Extract, Transform, Load)</li>
+            <li>Mapping & Geospatial Data</li>
+            <li>Unsupervised Learning</li>
+        </ul>
+        
+        <h4>📌 In Progress:</h4>
+        <ul>
+            <li>Supervised Learning</li>
+            <li>Neural Networks & Deep Learning</li>
+            <li>Big Data Analytics</li>
+        </ul>
+        
+        <p>These skills are part of my ongoing studies, expected to be completed by **February 27**.</p>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="container py-5">
-        <h2 class="text-center">Projects</h2>
+        <h2 class="text-center">💡 My Projects & Deployments</h2>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Leaflet Challenge">
                     <div class="card-body">
-                        <h5 class="card-title">Project One</h5>
-                        <p class="card-text">A brief description of the project.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
+                        <h5 class="card-title">Leaflet Challenge</h5>
+                        <p class="card-text">Interactive mapping using Leaflet.js and geospatial data.</p>
+                        <a href="https://cbilinski101.github.io/leaflet-challenge/" class="btn btn-custom">View Project</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Belly Button Challenge">
                     <div class="card-body">
-                        <h5 class="card-title">Project Two</h5>
-                        <p class="card-text">Another awesome project.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
+                        <h5 class="card-title">Belly Button Biodiversity</h5>
+                        <p class="card-text">Data visualization using Plotly.js and microbiome datasets.</p>
+                        <a href="https://cbilinski101.github.io/belly-button-challenge/" class="btn btn-custom">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Bike Stations">
+                    <div class="card-body">
+                        <h5 class="card-title">Bike Stations Analysis</h5>
+                        <p class="card-text">Data insights on Toronto's bike station usage.</p>
+                        <a href="https://cbilinski101.github.io/bike_stations/" class="btn btn-custom">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Advanced data science & machine learning project.</p>
+                        <a href="https://cbilinski101.github.io/Project-3/" class="btn btn-custom">View Project</a>
                     </div>
                 </div>
             </div>
@@ -73,17 +144,13 @@
 
     <!-- Contact Section -->
     <section id="contact" class="container py-5 text-center">
-        <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
+        <h2>📬 Let's Connect</h2>
+        <p>Email: cbilinski101@gmail.com</p>
         <p><a href="https://github.com/cbilinski101" class="btn btn-dark">Visit My GitHub</a></p>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-3 bg-dark text-white">
-        <p>© 2024 C. Bilinski. All Rights Reserved.</p>
-    </footer>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
