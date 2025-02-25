@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C. Bilinski | Portfolio</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -23,12 +25,14 @@
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
+            width: 800px;
         }
         h1, h2, h3 {
-            color: #ffcc00;
+            color: #ffdb58;
         }
         a {
-            color: #00bcd4;
+            color: #00e1ff;
             text-decoration: none;
             font-weight: bold;
         }
@@ -46,7 +50,7 @@
         }
         .icon {
             font-size: 2rem;
-            color: #ffcc00;
+            color: #ffdb58;
             margin-bottom: 10px;
         }
         .profile-pic {
@@ -54,8 +58,18 @@
             height: 300px;
             object-fit: cover;
             border-radius: 10px;
-            border: 3px solid #ffcc00;
+            border: 3px solid #ffdb58;
             margin-bottom: 20px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .skills-container p {
+            flex: 1 1 30%;
+            text-align: center;
         }
     </style>
     <!-- Icons -->
@@ -63,71 +77,40 @@
 </head>
 <body>
     <div class="overlay d-flex align-items-center flex-column">
-        <img src="https://github.com/cbilinski101/cbilinski101.github.io/blob/main/crop_photo.png?raw=true" alt="Profile Picture" class="profile-pic">
+        <img src="https://github.com/cbilinski101/cbilinski101.github.io/blob/main/crop_photo.PNG?raw=true" alt="Profile Picture" class="profile-pic">
         <div class="container text-center">
             <h2>Christine Bilinski</h2>
             <h1> Welcome to My Portfolio!</h1>
-            <p>Throughout my journey, I’ve taken time to focus on being a mother and caregiver—experiences that have taught me so much about handling complex situations with patience, empathy, and resilience.</p>
-            
-            <p>I'm transitioning into data analytics with the <strong>University of Toronto’s Data Analytics Bootcamp</strong> to be completed by February 27th.</p> 
-                
-            <p>Building on my background in data management, reporting, and operational support. I love finding ways to make processes smoother, uncovering insights from data, and helping people make informed decisions.</p>
-            <pre>
-
-</pre>
+            <p>I have dedicated my time to both caregiving and professional development, refining skills in problem-solving, resilience, and adaptability.</p>
+            <p>Currently, I am completing the <strong>University of Toronto’s Data Analytics Bootcamp</strong>, set to conclude on February 27th.</p> 
+            <p>My background in data management and operational support has fueled my passion for efficiency, data-driven decision-making, and uncovering meaningful insights.</p>
             <h2> My Skills and Learning Journey</h2>
-<style>
-  .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust space between items */
-    justify-content: space-between;
-  }
-  .skills-container p {
-    flex: 1 1 30%; /* Ensures 3 items per row */
-    text-align: center; /* Centers text */
-  }
-</style>
-
-<div class="skills-container">
-  <p>✨Excel</p> <p>✨VBA Scripting</p> <p>✨Python</p>
-  <p>✨Pandas</p> <p>✨Data Visualization</p> <p>✨Python APIs</p>
-  <p>✨SQL</p> <p>✨Advanced SQL</p> <p>✨Data Collection</p>
-  <p>✨NoSQL Databases</p> <p>✨ETL (Extract, Transform, Load)</p> <p>✨Interactive Visualizations</p>
-  <p>✨Mapping</p> <p>✨Unsupervised Learning</p> <p>✨Supervised Learning</p>
-</div>
-<pre>
-
-</pre>
-<h3>In Progress</h3>
-<div class="skills-container">
-  <p>✨Neural Networks and Deep Learning</p> <p>✨Big Data</p>
-</div>
-
-
-            <pre>
-
-</pre>
+            <div class="skills-container">
+                <p>✨ Excel</p> <p>✨ VBA Scripting</p> <p>✨ Python</p>
+                <p>✨ Pandas</p> <p>✨ Data Visualization</p> <p>✨ Python APIs</p>
+                <p>✨ SQL</p> <p>✨ Advanced SQL</p> <p>✨ Data Collection</p>
+                <p>✨ NoSQL Databases</p> <p>✨ ETL (Extract, Transform, Load)</p> <p>✨ Interactive Visualizations</p>
+                <p>✨ Mapping</p> <p>✨ Unsupervised Learning</p> <p>✨ Supervised Learning</p>
+            </div>
+            <h3>In Progress</h3>
+            <div class="skills-container">
+                <p>✨ Neural Networks & Deep Learning</p> <p>✨ Big Data</p>
+            </div>
             <h2> My Commitment to Growth</h2>
-            <p>With an average of <strong>99.6%</strong> in my program so far, I’ve demonstrated my ability to excel in challenging material. Given the opportunity, I’m confident in my ability to quickly master any new skills required and apply them effectively to real-world problems.</p>
-            <pre>
-
-</pre>
+            <p>With an average of <strong>99.6%</strong> in my program so far, I’ve demonstrated my ability to excel in complex technical material. I am eager to continue learning, applying my skills to real-world data challenges, and contributing meaningfully to impactful projects.</p>
             <h2> Check Out My Projects</h2>
-            <p>Feel free to explore some of the projects I’ve been working on during the Bootcamp! You’ll see me using tools like Python, SQL, Data Visualization (Matplotlib, Seaborn, Tableau), and Machine Learning.</p>
-            
+            <p>Explore some of the projects I’ve worked on during my journey, featuring Python, SQL, data visualization tools, and machine learning.</p>
             <h2><i class="bi-folder-fill icon"></i> Projects</h2>
-            <p><i class="bi-geo-fill icon"></i> <a href="https://cbilinski101.github.io/leaflet-challenge/">Leaflet Challenge</a> - Interactive mapping using Leaflet.js.</p>
-            <p><i class="bi-bug-fill icon"></i> <a href="https://cbilinski101.github.io/belly-button-challenge/">Belly Button Analysis</a> - Data visualization using Plotly.js.</p>
-            <p><i class="bi-bicycle icon"></i> <a href="https://cbilinski101.github.io/bike_stations/">Bike Stations</a> - Toronto bike station insights.</p>
-            <p><i class="bi-cpu-fill icon"></i> <a href="https://cbilinski101.github.io/Project-3/">Project 3</a> - Advanced machine learning project.</p>
-        
-            <h2>✨ Explore My GitHub Repositories</h2>
+            <p><i class="bi-geo-fill icon"></i> <a href="https://cbilinski101.github.io/leaflet-challenge/">Leaflet Challenge</a> - Interactive earthquake mapping using Leaflet.js.</p>
+            <p><i class="bi-bug-fill icon"></i> <a href="https://cbilinski101.github.io/belly-button-challenge/">Belly Button Analysis</a> - Dynamic microbial diversity visualizations with Plotly.js.</p>
+            <p><i class="bi-bicycle icon"></i> <a href="https://cbilinski101.github.io/bike_stations/">Bike Stations</a> - Toronto bike station data analysis and visualization.</p>
+            <p><i class="bi-cpu-fill icon"></i> <a href="https://cbilinski101.github.io/Project-3/">Project 3</a> - Advanced machine learning application.</p>
+            <h2>✨ Explore My GitHub & Connect</h2>
             <p><a href="https://github.com/cbilinski101" class="btn btn-custom" target="_blank">Visit My GitHub</a></p>
+            <p><a href="#" class="btn btn-custom">Connect on LinkedIn</a></p>
             <p>✨ Thanks for stopping by, and let’s connect!</p>  
         </div>
     </div>
-    
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
