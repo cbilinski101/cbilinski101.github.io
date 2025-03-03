@@ -19,9 +19,6 @@
             background: rgba(0, 0, 0, 0.7);
             min-height: 100vh;
             padding: 50px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
         .container {
             background: rgba(50, 50, 50, 0.9);
@@ -30,17 +27,6 @@
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
             max-width: 90%;
             width: 800px;
-            display: flex;
-            align-items: center;
-            text-align: left;
-        }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 3px solid #ffdb58;
-            margin-right: 20px;
         }
         h1, h2, h3 {
             color: #ffdb58;
@@ -67,6 +53,17 @@
             color: #ffdb58;
             margin-bottom: 10px;
         }
+        .profile-pic {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #ffdb58;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
         .skills-container {
             display: flex;
             flex-wrap: wrap;
@@ -82,15 +79,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div class="overlay">
-        <div class="container">
-            <img src="https://github.com/cbilinski101/cbilinski101.github.io/blob/main/circular_photo.png?raw=true" alt="Profile Picture" class="profile-pic">
-            <div>
-                <h2> My Commitment to Growth</h2>
-                <p>With an average of <strong>99.6%</strong> in my program, I’ve demonstrated my ability to excel in complex technical material. I am eager to continue learning, applying my skills to real-world data challenges, and contributing meaningfully to impactful projects.</p>
-            </div>
-        </div>
+    <div class="overlay d-flex align-items-center flex-column">
+        <img src="https://github.com/cbilinski101/cbilinski101.github.io/blob/main/crop_image.PNG?raw=true" alt="Profile Picture" class="profile-pic">
         <div class="container text-center">
+            <h2> My Commitment to Growth</h2>
+            <p>With an average of <strong>99.6%</strong> in my program, I’ve demonstrated my ability to excel in complex technical material. I am eager to continue learning, applying my skills to real-world data challenges, and contributing meaningfully to impactful projects.</p>
             <h2> My Acquired Skills</h2>
             <div class="skills-container">
                 <p>✨ Excel</p> <p>✨ VBA Scripting</p> <p>✨ Python</p>
@@ -113,7 +106,7 @@
             <p>My background in data management and operational support has fueled my passion for efficiency, data-driven decision-making, and uncovering meaningful insights.</p>
             <h2>✨ Explore My GitHub & Connect</h2>
             <p><a href="https://github.com/cbilinski101" class="btn btn-custom" target="_blank">Visit My GitHub</a></p>
-            <p><a href="https://www.linkedin.com/in/christine-b-19367b31b" class="btn btn-custom" target="_blank">Connect on LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/christine-b-19367b31b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bc%2Bwd58NWRCCLmz98nEVs8A%3D%3D" class="btn btn-custom" target="_blank">Connect on LinkedIn</a></p>
             <p>✨ Thanks for stopping by, and let’s connect!</p>  
         </div>
     </div>
