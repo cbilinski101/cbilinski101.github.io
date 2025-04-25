@@ -3,137 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C. Bilinski | Portfolio</title>
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Welcome to My GitHub Profile</title>
     <style>
         body {
-            background: radial-gradient(circle, #0d1b2a, #1b263b, #415a77);
+            background-image: url('nb_more_faded.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             font-family: 'Poppins', sans-serif;
-            color: #e0e1dd;
-            line-height: 1.6;
-            text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
-        }
-        .overlay {
-            background: rgba(13, 27, 42, 0.85);
-            min-height: 100vh;
-            padding: 50px 0;
+            color: black;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
         }
         .container {
-            background: rgba(36, 51, 72, 0.95);
-            padding: 40px;
+            background: rgba(255, 255, 255, 0.9); /* Light overlay */
+            padding: 30px;
             border-radius: 15px;
-            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.3);
-            max-width: 90%;
-            width: 800px;
-            text-align: center;
+            display: inline-block;
+            max-width: 850px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
-            color: #00e1ff;
-            font-family: 'Orbitron', sans-serif;
+        h1 {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 2.5em;
+        }
+        h2, h3 {
+            color: #34495e;
+            font-weight: 400;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            padding: 15px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
         }
         a {
-            color: #00e1ff;
+            color: #3498db;
             text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
+            font-weight: 500;
         }
         a:hover {
-            color: #ff00ff;
-        }
-        .btn-custom {
-            background: linear-gradient(135deg, #00e1ff, #ff00ff);
-            color: #fff;
-            border-radius: 25px;
-            padding: 12px 25px;
-            font-weight: bold;
-            text-transform: uppercase;
-            transition: 0.3s;
-            border: none;
-        }
-        .btn-custom:hover {
-            background: linear-gradient(135deg, #ff00ff, #00e1ff);
-            transform: scale(1.05);
-        }
-        .icon {
-            font-size: 2rem;
-            color: #00e1ff;
-            margin-bottom: 10px;
-        }
-        .profile-pic {
-            width: 180px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 4px solid #00e1ff;
-            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7);
-            margin-bottom: 20px;
-        }
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-        .skill-badge {
-            display: inline-block;
-            background: rgba(0, 225, 255, 0.2);
-            color: #00e1ff;
-            padding: 10px 15px;
-            border-radius: 25px;
-            font-size: 14px;
-            font-weight: 600;
-            border: 1px solid #00e1ff;
+            text-decoration: underline;
         }
     </style>
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div class="overlay d-flex align-items-center flex-column">
-        <img src="https://github.com/cbilinski101/cbilinski101.github.io/blob/main/Screenshot%202025-01-14%20164801.png?raw=true" alt="Profile Picture" class="profile-pic">
-        <div class="container">
-            <h2> My Commitment to Growth</h2>
-            <p>Completed the University of Toronto Data Analytics Program with an <strong>A+</strong>, I’ve demonstrated my ability to excel in complex technical material.</p>
-            <h2> My Acquired Skills</h2>
-            <div class="skills-container">
-                <span class="skill-badge">Excel</span>
-                <span class="skill-badge">VBA Scripting</span>
-                <span class="skill-badge">Python</span>
-                <span class="skill-badge">SQL</span>
-                <span class="skill-badge">Machine Learning</span>
-                <span class="skill-badge">Deep Learning</span>
-                <span class="skill-badge">Data Visualization</span>
-                <span class="skill-badge">ETL</span>
-                <span class="skill-badge">NoSQL Databases</span>
-                <span class="skill-badge">Pandas</span>
-                <span class="skill-badge">TensorFlow</span>
-                <span class="skill-badge">Tableau</span>
-                <span class="skill-badge">Power BI</span>
-                <span class="skill-badge">Big Data</span>
-            </div>
-            <h2> Projects</h2>
-            <p><i class="bi-folder-fill icon"></i> <a href="https://cbilinski101.github.io/leaflet-challenge/">Leaflet Challenge</a></p>
-            <p><i class="bi-bug-fill icon"></i> <a href="https://cbilinski101.github.io/belly-button-challenge/">Belly Button Analysis</a></p>
-            <p><i class="bi-bicycle icon"></i> <a href="https://cbilinski101.github.io/bike_stations/">Bike Stations</a></p>
-            <h2> More About Me</h2>
-            <p>Completed the <strong>University of Toronto’s Data Analytics Bootcamp</strong> on February 27th, 2025.</p>
-            <p><a href="https://github.com/cbilinski101" class="btn btn-custom" target="_blank">Visit My GitHub</a></p>
-            <p><a href="https://www.linkedin.com/in/christine-b-19367b31b" class="btn btn-custom" target="_blank">Connect on LinkedIn</a></p>
-        </div>
+    <div class="container">
+        <h1>🚀 Welcome to My GitHub Profile!</h1>
+        <p>Throughout my journey, I’ve taken time to focus on being a mother and caregiver—experiences that have taught me so much about handling complex situations with patience, empathy, and resilience. Now, I’m excited to dive into a new chapter, exploring my potential and contributing my skills to meaningful projects.</p>
+        
+        <p>I’m transitioning into data analytics, building on my background in data management, reporting, and operational support. I love finding ways to make processes smoother, uncovering insights from data, and helping people make informed decisions.</p>
+        
+        <h2>📊 My Skills and Learning Journey</h2>
+        <h3>✅ Skills Learned So Far</h3>
+        <ul>
+            <li>Excel</li>
+            <li>VBA Scripting</li>
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Data Visualization</li>
+            <li>Python APIs</li>
+            <li>SQL</li>
+            <li>Advanced SQL</li>
+            <li>Data Collection</li>
+            <li>NoSQL Databases</li>
+            <li>ETL (Extract, Transform, Load)</li>
+            <li>Interactive Visualizations</li>
+            <li>Mapping</li>
+            <li>Unsupervised Learning</li>
+        </ul>
+        
+        <h3>📌 In Progress</h3>
+        <ul>
+            <li>Supervised Learning</li>
+            <li>Neural Networks and Deep Learning</li>
+            <li>Big Data</li>
+        </ul>
+        
+        <p>These topics are part of my ongoing studies in the University of Toronto’s Data Analytics Bootcamp and are expected to be completed by February 27.</p>
+        
+        <h2>🌟 My Commitment to Growth</h2>
+        <p>With an average of <strong>99.6%</strong> in my program so far, I’ve demonstrated my ability to excel in challenging material. Given the opportunity, I’m confident in my ability to quickly master any new skills required and apply them effectively to real-world problems.</p>
+        
+        <h2>💡 Check Out My Projects</h2>
+        <p>Feel free to explore some of the projects I’ve been working on during the Bootcamp! You’ll see me using tools like:</p>
+        <ul>
+            <li>Python (Pandas, NumPy)</li>
+            <li>SQL</li>
+            <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
+            <li>Machine Learning</li>
+        </ul>
+        
+        <p>Each project showcases more of what I’ve been learning, and I’d love to hear your thoughts or suggestions as I continue to grow my skills.</p>
+        
+        <p><strong>✨ Explore My GitHub Repositories:</strong> <a href="https://github.com/cbilinski101" target="_blank">Visit My GitHub</a></p>
+        
+        <p>✨ Thanks for stopping by, and let’s connect!</p>
     </div>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
