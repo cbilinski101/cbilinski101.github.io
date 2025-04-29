@@ -1,78 +1,104 @@
-<style>
-  /* Neon glow animation for the heading */
-  @keyframes neonGlow {
-    0% {
-      text-shadow: 0 0 5px #00e1ff, 0 0 10px #00e1ff, 0 0 15px #00e1ff;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Christine Bilinski | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('nb.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
     }
-    50% {
-      text-shadow: 0 0 10px #ff00ff, 0 0 20px #00e1ff, 0 0 30px #00e1ff;
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 3rem;
+      margin: 3rem auto;
+      max-width: 900px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
-    100% {
-      text-shadow: 0 0 5px #00e1ff, 0 0 10px #00e1ff, 0 0 15px #00e1ff;
+
+    h1, h2 {
+      text-align: center;
     }
-  }
 
-  .glow-title {
-    animation: neonGlow 2.5s infinite ease-in-out;
-    font-size: 2.5rem;
-    font-family: 'Orbitron', sans-serif;
-    color: #00e1ff;
-    margin-bottom: 20px;
-  }
+    .contact, .projects, .experience {
+      margin-top: 2rem;
+    }
 
-  .under-construction-section {
-    background: url('nb_more_faded.png') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
 
-  .glass-box {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 8px 32px 0 rgba(0, 255, 255, 0.37);
-    padding: 40px;
-    max-width: 700px;
-    text-align: center;
-  }
+    a:hover {
+      text-decoration: underline;
+    }
 
-  .glass-box p {
-    color: #e0e1dd;
-    font-size: 1.1em;
-  }
+    .project {
+      margin-bottom: 1.2rem;
+    }
 
-  .btn-custom {
-    background: linear-gradient(135deg, #00e1ff, #ff00ff);
-    color: #fff;
-    border-radius: 25px;
-    padding: 12px 25px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: 0.3s;
-    border: none;
-    margin: 10px;
-    display: inline-block;
-  }
+    .project-title {
+      font-weight: bold;
+    }
 
-  .btn-custom:hover {
-    background: linear-gradient(135deg, #ff00ff, #00e1ff);
-    transform: scale(1.05);
-  }
-</style>
+    .skills {
+      margin-top: 1rem;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Christine Bilinski</h1>
+    <p style="text-align: center;">Administrative Professional | Data Analytics Graduate | Customer-Centric Problem Solver</p>
 
-<div class="under-construction-section">
-  <div class="glass-box">
-    <h1 class="glow-title">🚧 Site Under Construction 🚧</h1>
-    <p>Thank you for visiting! I'm currently working hard behind the scenes to upgrade this portfolio with exciting projects, visuals, and even more cosmic neon energy.</p>
-    <p>🚀 Stay tuned — amazing things are on the way!</p>
-    <p><a href="https://github.com/cbilinski101" class="btn btn-custom" target="_blank">Visit My GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/christine-b-19367b31b" class="btn btn-custom" target="_blank">Connect on LinkedIn</a></p>
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:cbilinski101@gmail.com">cbilinski101@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/christine-b-19367b31b" target="_blank">Christine Bilinski</a></p>
+      <p>GitHub: <a href="https://github.com/cbilinski101" target="_blank">cbilinski101</a></p>
+    </div>
+
+    <div class="projects">
+      <h2>Featured Projects</h2>
+      <div class="project">
+        <p class="project-title"><a href="https://cbilinski101.github.io/leaflet-challenge/" target="_blank">🌍 Leaflet Earthquake Visualization</a></p>
+        <p>An interactive tool that maps real-time earthquake activity globally using Leaflet.js, improving user awareness through a geographic lens.</p>
+      </div>
+      <div class="project">
+        <p class="project-title"><a href="https://cbilinski101.github.io/Project-3/" target="_blank">⚡ Global Energy Dashboard</a></p>
+        <p>Interactive dashboards exploring global energy consumption trends through dynamic visualizations and storytelling.</p>
+      </div>
+      <div class="project">
+        <p class="project-title"><a href="https://cbilinski101.github.io/belly-button-challenge/" target="_blank">🧬 Belly Button Biodiversity</a></p>
+        <p>A JavaScript/Plotly.js dashboard to explore bacterial cultures in human belly button samples for bioinformatics learning.</p>
+      </div>
+    </div>
+
+    <div class="experience">
+      <h2>Professional Experience</h2>
+      <p><strong>Haldimand-Norfolk REACH</strong> – Admin Assistant (2022–2024)<br>
+      Provided front desk support, data entry, appointment coordination, and internal reporting for early intervention programs.</p>
+
+      <p><strong>Disbrowe Chevrolet</strong> – Bookkeeper & Payroll (2007–2009)<br>
+      Managed payroll, government remittances, and T4 preparations with high accuracy using Excel and financial systems.</p>
+
+      <p><strong>Scotiabank, Jones Packaging</strong><br>
+      Held multiple roles supporting customer service, accounting, and administrative operations in fast-paced environments.</p>
+    </div>
+
+    <div class="experience">
+      <h2>Data Analytics & Technical Skills</h2>
+      <p>Certified in Data Analytics – University of Toronto (99.7% final grade)</p>
+      <p class="skills">Python • SQL • Excel • Tableau • Power BI • JavaScript • Plotly.js • Data Cleaning • Visualization • Machine Learning Basics</p>
+    </div>
   </div>
-</div>
+</body>
+</html>
