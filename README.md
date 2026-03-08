@@ -29,7 +29,7 @@ Interactive map showing global earthquake activity.
 🔗 **Live Project**  
 https://cbilinski101.github.io/leaflet-challenge/
 
-![Earthquake Map](Images/earthquake_1.png)
+![Earthquake Map](Images/earthquake_2.png)
 
 ---
 
@@ -42,7 +42,7 @@ A dashboard designed to explore patterns and trends in datasets.
 🔗 **Live Project**  
 https://cbilinski101.github.io/Project-3/
 
-![Dashboard Preview](Images/project3_1.png)
+![Dashboard Preview](Images/Global Primary Energy Consumption.png)
 
 ---
 
