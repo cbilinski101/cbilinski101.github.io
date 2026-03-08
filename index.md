@@ -35,7 +35,7 @@ No technical background required — just click and explore.
 
 Interactive map showing global earthquake activity using **Leaflet.js**.
 
-![Earthquake Map](Images/earthquake_2.png)
+![Earthquake Map](earthquake_2.png)
 
 View Project  
 https://cbilinski101.github.io/leaflet-challenge/
@@ -46,7 +46,7 @@ https://cbilinski101.github.io/leaflet-challenge/
 
 Interactive dashboard exploring patterns and trends in data.
 
-![Dashboard Preview](Images/Global Primary Energy Consumption.png
+![Dashboard Preview](Global Primary Energy Consumption.png
 )
 
 View Project  
@@ -58,7 +58,7 @@ https://cbilinski101.github.io/Project-3/
 
 Dashboard exploring bacteria cultures using **Plotly.js**.
 
-![Belly Button Dashboard](Images/bbc_bubble_chart.png)
+![Belly Button Dashboard](bbc_bubble_chart.png)
 
 View Project  
 https://cbilinski101.github.io/belly-button-challenge/
