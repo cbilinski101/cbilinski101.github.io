@@ -2,49 +2,38 @@
 
 # 👋 Hi, I'm Christine Bilinski
 
-📊 Data Analytics Graduate  
-🤝 Customer Success Professional  
-💡 I turn messy data into clear insights people can understand.
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Data+Analytics+Graduate;Customer+Success+Professional;I+turn+data+into+clear+insights;Dashboard+and+Visualization+Builder)
 
-Welcome to my GitHub!
+Welcome to my GitHub portfolio.
 
-Think of this page as a **small museum of data projects** where I experiment with dashboards, maps, and visualizations.
+I enjoy turning **data into dashboards, visual stories, and insights** that help people understand information quickly.
 
-No technical background required — just click and explore.
+Think of this page like a **mini museum of data projects** — explore and click around.
 
 ---
 
 # 🚀 Featured Projects
 
-## 🌎 Earthquake Visualization Map
-
+### 🌎 Earthquake Visualization Map
 Interactive map showing global earthquake activity.
-
-**Tools:** Leaflet.js, JavaScript, GeoJSON
 
 🔗 Live Project  
 https://cbilinski101.github.io/leaflet-challenge/
 
 ---
 
-## 📊 Interactive Data Dashboard
-
-A dashboard designed to explore patterns and trends within datasets.
-
-**Tools:** JavaScript, Data Visualization
+### 📊 Interactive Data Dashboard
+Dashboard exploring patterns and trends in data.
 
 🔗 Live Dashboard  
 https://cbilinski101.github.io/Project-3/
 
 ---
 
-## 🧫 Belly Button Biodiversity Dashboard
-
+### 🧫 Belly Button Biodiversity Dashboard
 Scientists studied bacteria found in belly buttons (yes, really).
 
 I built a dashboard to explore the data visually.
-
-**Tools:** Plotly.js, JavaScript
 
 🔗 Explore the Dashboard  
 https://cbilinski101.github.io/belly-button-challenge/
@@ -58,8 +47,8 @@ https://cbilinski101.github.io/belly-button-challenge/
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 
 ### Visualization
-![Plotly](https://img.shields.io/badge/Plotly-dashboard-green)
-![Leaflet](https://img.shields.io/badge/Leaflet-maps-brightgreen)
+![Plotly](https://img.shields.io/badge/Plotly-Dashboards-green)
+![Leaflet](https://img.shields.io/badge/Leaflet-Maps-brightgreen)
 
 ### Web
 ![HTML](https://img.shields.io/badge/HTML-orange)
@@ -73,25 +62,25 @@ https://cbilinski101.github.io/belly-button-challenge/
 
 # 💼 Professional Background
 
-I currently work as a **Live Services Agent at ServiceTitan**, supporting customers, solving problems, and ensuring smooth service scheduling.
+I currently work as a **Live Services Agent at ServiceTitan**, helping customers solve problems and ensuring smooth service scheduling.
 
 My background combines:
 
-✔ Customer success  
-✔ Problem solving  
-✔ Data reporting  
-✔ Process improvement  
-✔ Customer relationship management  
+✔ Customer Success  
+✔ Problem Solving  
+✔ Data Reporting  
+✔ Process Improvement  
+✔ Customer Relationship Management  
 
-I enjoy combining **analytics with customer insight** to improve systems and experiences.
+I enjoy combining **customer insights with data analytics** to improve systems and experiences.
 
 ---
 
 # 📄 Resume
 
-📎 Download my resume here
+Download my resume here:
 
-[Christine Bilinski Resume](Christine_Bilinski_Resume.pdf)
+[Download Resume](Christine_Bilinski_Resume.pdf)
 
 ---
 
