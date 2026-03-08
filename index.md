@@ -46,8 +46,7 @@ https://cbilinski101.github.io/leaflet-challenge/
 
 Interactive dashboard exploring patterns and trends in data.
 
-![Dashboard Preview](Global Primary Energy Consumption.png
-)
+![Dashboard Preview](Global Primary Energy Consumption.png)
 
 View Project  
 https://cbilinski101.github.io/Project-3/
