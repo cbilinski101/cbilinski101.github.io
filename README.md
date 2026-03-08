@@ -1,5 +1,5 @@
 <p align="right">
-<img src="profile.PNG" width="170">
+<img src="images/profile.PNG" width="170">
 </p>
 
 # 👋 Hi, I'm Christine Bilinski
@@ -29,7 +29,7 @@ Interactive map showing global earthquake activity.
 🔗 **Live Project**  
 https://cbilinski101.github.io/leaflet-challenge/
 
-![Earthquake Map](earthquake_2.png)
+![Earthquake Map](images/earthquake_2.png)
 
 ---
 
@@ -42,7 +42,7 @@ A dashboard designed to explore patterns and trends in datasets.
 🔗 **Live Project**  
 https://cbilinski101.github.io/Project-3/
 
-![Dashboard Preview](Global Primary Energy Consumption.png
+![Dashboard Preview](images/project3_dashboard.png)
 
 ---
 
@@ -55,7 +55,7 @@ I built a dashboard to explore the data visually using **Plotly.js**.
 🔗 **Live Project**  
 https://cbilinski101.github.io/belly-button-challenge/
 
-![Belly Button Dashboard](bbc_bubble_chart.png)
+![Belly Button Dashboard](images/bbc_bubble_chart.png)
 
 ---
 
