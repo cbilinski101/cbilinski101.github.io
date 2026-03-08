@@ -2,7 +2,6 @@
 <img src="profile.PNG" width="170">
 </p>
 
-# Christine Bilinski
 
 ### Customer Success | Data Analytics | SaaS Operations
 
