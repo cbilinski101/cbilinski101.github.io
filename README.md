@@ -1,5 +1,5 @@
 <p align="right">
-<img src="profile.jpg" width="170">
+<img src="profile.PNG" width="170">
 </p>
 
 # 👋 Hi, I'm Christine Bilinski
