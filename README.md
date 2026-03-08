@@ -1,60 +1,83 @@
-<img src="profile.jpg" width="180" align="right">
+<p align="right">
+<img src="profile.jpg" width="170">
+</p>
 
 # 👋 Hi, I'm Christine Bilinski
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Data+Analytics+Graduate;Customer+Success+Professional;I+turn+data+into+clear+insights;Dashboard+and+Visualization+Builder)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Data+Analytics+Graduate;Customer+Success+Professional;Turning+data+into+clear+insights;Dashboard+and+Visualization+Builder)
+
+📊 **Data Analytics Graduate**  
+🤝 **Customer Success Professional**  
+💡 I turn messy data into clear insights people can understand.
 
 Welcome to my GitHub portfolio.
 
-I enjoy turning **data into dashboards, visual stories, and insights** that help people understand information quickly.
+Think of this page like a **small museum of data projects** where I experiment with dashboards, maps, and visualizations.
 
-Think of this page like a **mini museum of data projects** — explore and click around.
+No coding knowledge required — just click and explore.
 
 ---
 
 # 🚀 Featured Projects
 
-### 🌎 Earthquake Visualization Map
+## 🌎 Earthquake Visualization Map
+
 Interactive map showing global earthquake activity.
 
-🔗 Live Project  
+**Tools:** Leaflet.js, JavaScript, GeoJSON
+
+🔗 **Live Project**  
 https://cbilinski101.github.io/leaflet-challenge/
 
+![Earthquake Map](Images/earthquake_1.png)
+
 ---
 
-### 📊 Interactive Data Dashboard
-Dashboard exploring patterns and trends in data.
+## 📊 Interactive Data Dashboard
 
-🔗 Live Dashboard  
+A dashboard designed to explore patterns and trends in datasets.
+
+**Tools:** JavaScript, Data Visualization
+
+🔗 **Live Project**  
 https://cbilinski101.github.io/Project-3/
 
+![Dashboard Preview](Images/project3_1.png)
+
 ---
 
-### 🧫 Belly Button Biodiversity Dashboard
+## 🧫 Belly Button Biodiversity Dashboard
+
 Scientists studied bacteria found in belly buttons (yes, really).
 
-I built a dashboard to explore the data visually.
+I built a dashboard to explore the data visually using **Plotly.js**.
 
-🔗 Explore the Dashboard  
+🔗 **Live Project**  
 https://cbilinski101.github.io/belly-button-challenge/
+
+![Belly Button Dashboard](Images/bbc_bubble_chart.png)
 
 ---
 
 # 🧰 Technical Skills
 
-### Programming
+## Programming
+
 ![Python](https://img.shields.io/badge/Python-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 
-### Visualization
+## Data Visualization
+
 ![Plotly](https://img.shields.io/badge/Plotly-Dashboards-green)
 ![Leaflet](https://img.shields.io/badge/Leaflet-Maps-brightgreen)
 
-### Web
+## Web Technologies
+
 ![HTML](https://img.shields.io/badge/HTML-orange)
 ![CSS](https://img.shields.io/badge/CSS-blue)
 
-### Tools
+## Tools
+
 ![GitHub](https://img.shields.io/badge/GitHub-black)
 ![Excel](https://img.shields.io/badge/Excel-green)
 
@@ -62,17 +85,17 @@ https://cbilinski101.github.io/belly-button-challenge/
 
 # 💼 Professional Background
 
-I currently work as a **Live Services Agent at ServiceTitan**, helping customers solve problems and ensuring smooth service scheduling.
+I currently work as a **Live Services Agent at ServiceTitan**, helping customers solve problems and ensuring a smooth service experience.
 
 My background combines:
 
-✔ Customer Success  
-✔ Problem Solving  
-✔ Data Reporting  
-✔ Process Improvement  
-✔ Customer Relationship Management  
+- Customer Success
+- Problem Solving
+- Data Reporting
+- Process Improvement
+- Customer Relationship Management
 
-I enjoy combining **customer insights with data analytics** to improve systems and experiences.
+I enjoy combining **customer insight with analytics** to improve systems and experiences.
 
 ---
 
@@ -102,19 +125,19 @@ Download my resume here:
 
 # 🔗 Connect With Me
 
-💼 LinkedIn  
+💼 **LinkedIn**  
 https://linkedin.com/in/christine-b-19367b31b
 
-💻 GitHub  
+💻 **GitHub**  
 https://github.com/cbilinski101
 
-📧 Email  
+📧 **Email**  
 cbilinski101@gmail.com
 
 ---
 
-⭐ Thanks for visiting!
+⭐ **Thanks for visiting!**
 
 If you made it this far, congratulations.
 
-You now know more about **belly-button bacteria dashboards** than most people on Earth.
+You now officially know more about **belly-button bacteria dashboards** than most people on Earth.
