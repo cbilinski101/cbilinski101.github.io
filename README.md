@@ -1,13 +1,30 @@
 # Christine Bilinski Portfolio Website
 
-This repository hosts my personal portfolio website.
+This repository contains the source code for my personal portfolio website.
 
-🌐 **Live Site:**  
+🌐 Live site  
 https://cbilinski101.github.io
 
-The site showcases my projects in:
-- Data Analytics
-- Machine Learning
-- Data Visualization
+## About
 
-Built with HTML, CSS, and GitHub Pages.
+I am a **Data Analytics graduate and Customer Success professional**
+who enjoys transforming messy data into clear, understandable insights.
+
+This portfolio highlights projects in:
+
+- Data analytics
+- Machine learning
+- data visualization
+- business problem solving
+
+## Technologies Used
+
+- HTML
+- CSS
+- GitHub Pages
+
+## Projects Featured
+
+- Fraud Detection Dashboard
+- Data Visualization Projects
+- Analytics Case Studies
