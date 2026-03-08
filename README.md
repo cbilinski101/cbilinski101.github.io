@@ -42,7 +42,7 @@ A dashboard designed to explore patterns and trends in datasets.
 🔗 **Live Project**  
 https://cbilinski101.github.io/Project-3/
 
-![Dashboard Preview](Global Primary Energy Consumption.png)
+![Dashboard Preview](Global Primary Energy Consumption.png
 
 ---
 
