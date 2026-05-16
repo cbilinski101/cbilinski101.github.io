@@ -1,142 +1,183 @@
+Here’s a cleaner, more polished rewrite of your full HTML with:
+
+* improved wording
+* stronger professional branding
+* fixed resume download
+* better accessibility
+* safer external links
+* cleaner structure
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Christine Bilinski | Customer Support & Aspiring Analyst</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christine Bilinski | Customer Support & Data Analytics</title>
+  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-<header class="hero">
-  <div class="hero-content">
-    <img src="images/profile.PNG" class="profile" alt="Christine Bilinski">
-
-    <h1>Christine Bilinski</h1>
-
-    <p class="subtitle">
-      Customer Support • Process Improvement • Aspiring Analyst
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <img
+        src="images/profile.PNG"
+        class="profile"
+        alt="Portrait of Christine Bilinski"
+      />
+      <h1>Christine Bilinski</h1>
+      <p class="subtitle">
+        Customer Support • Process Improvement • Data Analytics
+      </p>
+      <p class="hero-text">
+        Customer-focused professional with experience in remote support,
+        workflow coordination, troubleshooting, and process improvement.
+        Passionate about using technology and data to improve operational efficiency
+        and customer experience.
+      </p>
+      <div class="buttons">
+        <a href="mailto:cbilinski101@gmail.com" class="btn">
+          Email
+        </a>
+        <a
+          href="https://github.com/cbilinski101"
+          class="btn"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/christine-b-19367b31b"
+          class="btn"
+          target="_blank"
+          rel="noopener"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="Christine_Bilinski_Resume.pdf"
+          class="btn primary"
+          download
+        >
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- ABOUT -->
+  <section class="about container">
+    <h2>About Me</h2>
+    <p>
+      I’m a customer support professional with experience working in
+      fast-paced remote and office environments. My background includes
+      customer communication, scheduling coordination, troubleshooting,
+      workflow support, and process improvement.
     </p>
-
-    <p class="hero-text">
-      Customer-focused professional with experience in remote support, scheduling coordination,
-      workflow improvement, and data-informed problem solving.
+    <p>
+      After completing the University of Toronto Data Analytics Bootcamp,
+      I began building hands-on skills in SQL, Python, Excel, Google Sheets,
+      and data visualization. I enjoy finding practical ways to simplify
+      workflows, improve efficiency, and support better decision-making through data.
     </p>
-
-    <div class="buttons">
-  <a href="mailto:cbilinski101@gmail.com" class="btn">Email</a>
-
-  <a href="https://github.com/cbilinski101" class="btn" target="_blank">
-    GitHub
-  </a>
-
-  <a href="https://www.linkedin.com/in/cbilinski101" class="btn" target="_blank">
-    LinkedIn
-  </a>
-
-  <a href="Christine_Bilinski_Resume.pdf" class="btn primary" download>
-    Download Resume
-  </a>
-
-  <a href="Christine_Bilinski_Resume.pdf" class="btn" target="_blank" rel="noopener">
-    View Resume
-  </a>
-</div>
-  </div>
-</header>
-
-<section class="about container">
-  <h2>About Me</h2>
-
-  <p>
-    I’m a customer-focused professional with experience supporting customers in fast-paced
-    remote and office environments. My strengths include troubleshooting, scheduling coordination,
-    workflow support, and clear communication.
-  </p>
-
-  <p>
-    After completing the University of Toronto Data Analytics Bootcamp, I have been building
-    practical skills in Excel, Google Sheets, SQL, Python, and data analysis. I enjoy using
-    technology to solve everyday workflow problems and make processes easier for teams.
-  </p>
-</section>
-
-<section class="skills container">
-  <h2>Skills & Tools</h2>
-
-  <p class="skills-list">
-    Customer Support • Process Improvement • KPI Tracking • Google Sheets • Excel • SQL • Python •
-    Reporting • Troubleshooting • Workflow Coordination • Remote Collaboration
-  </p>
-</section>
-
-<section class="projects container">
-  <h2>Featured Projects</h2>
-
-  <div class="grid">
-
-    <div class="card highlight-card">
-      <div class="card-body">
-        <h3>Google Sheets ZIP Finder Tool</h3>
-        <p>
-          Created an internal workflow tool using Google Sheets lookup logic to help team members
-          quickly check serviceability, reduce manual searching, and improve response efficiency.
-        </p>
-        <p class="project-tags">
-          Google Sheets • Lookup Logic • Process Improvement • Operations Support
-        </p>
+  </section>
+  <!-- SKILLS -->
+  <section class="skills container">
+    <h2>Skills & Tools</h2>
+    <p class="skills-list">
+      Customer Support • Process Improvement • KPI Tracking •
+      Google Sheets • Excel • SQL • Python • Reporting •
+      Troubleshooting • Workflow Coordination • Remote Collaboration
+    </p>
+  </section>
+  <!-- PROJECTS -->
+  <section class="projects container">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <!-- PROJECT 1 -->
+      <div class="card highlight-card">
+        <div class="card-body">
+          <h3>Google Sheets ZIP Finder Tool</h3>
+          <p>
+            Built a workflow support tool using Google Sheets lookup logic
+            to help teams quickly verify serviceability, reduce manual searching,
+            and improve response efficiency.
+          </p>
+          <p class="project-tags">
+            Google Sheets • Workflow Automation • Lookup Logic • Operations Support
+          </p>
+        </div>
+      </div>
+      <!-- PROJECT 2 -->
+      <div class="card">
+        <a
+          href="https://cbilinski101.github.io/belly-button-challenge/"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="images/bbc_bubble_chart.png"
+            alt="Microbiome Bubble Chart Dashboard"
+          />
+        </a>
+        <div class="card-body">
+          <h3>Microbiome Bubble Chart</h3>
+          <p>
+            Interactive data visualization exploring bacterial cultures
+            through dynamic bubble chart analysis.
+          </p>
+        </div>
+      </div>
+      <!-- PROJECT 3 -->
+      <div class="card">
+        <a
+          href="https://cbilinski101.github.io/leaflet-challenge/"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="images/earthquake_2.png"
+            alt="Global Earthquake Visualization"
+          />
+        </a>
+        <div class="card-body">
+          <h3>Global Earthquake Map</h3>
+          <p>
+            Interactive mapping project visualizing worldwide earthquake
+            activity with magnitude-based markers and tectonic overlays.
+          </p>
+        </div>
+      </div>
+      <!-- PROJECT 4 -->
+      <div class="card">
+        <a
+          href="https://cbilinski101.github.io/Project-3/"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="images/project3_dashboard.png"
+            alt="Energy Dashboard"
+          />
+        </a>
+        <div class="card-body">
+          <h3>Energy Data Dashboard</h3>
+          <p>
+            Interactive dashboard analyzing global energy trends,
+            renewable adoption, and consumption patterns.
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="card">
-      <a href="https://cbilinski101.github.io/belly-button-challenge/" target="_blank">
-        <img src="images/bbc_bubble_chart.png" alt="Microbiome Bubble Chart">
-      </a>
-      <div class="card-body">
-        <h3>Microbiome Bubble Chart</h3>
-        <p>
-          Interactive visualization exploring bacterial cultures per sample using bubble size
-          to reveal dominant species.
-        </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <a href="https://cbilinski101.github.io/leaflet-challenge/" target="_blank">
-        <img src="images/earthquake_2.png" alt="Global Earthquake Map">
-      </a>
-      <div class="card-body">
-        <h3>Global Earthquake Map</h3>
-        <p>
-          Interactive map visualizing worldwide earthquakes with magnitude-based markers and
-          tectonic plate overlays.
-        </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <a href="https://cbilinski101.github.io/Project-3/" target="_blank">
-        <img src="images/project3_dashboard.png" alt="Energy Data Dashboard">
-      </a>
-      <div class="card-body">
-        <h3>Energy Data Dashboard</h3>
-        <p>
-          Interactive dashboard exploring global energy trends, consumption, and renewable adoption.
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Christine Bilinski</p>
-  <p class="small">Built with curiosity, persistence, and GitHub Pages.</p>
-</footer>
-
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Christine Bilinski</p>
+    <p class="small">
+      Built with curiosity, persistence, and GitHub Pages.
+    </p>
+  </footer>
 </body>
 </html>
